@@ -1,6 +1,6 @@
 {
   "name": "renRenTest",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A short description of renRenTest.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SenShao/renRenTest",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SenShao/renRenTest.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,6 +21,18 @@
   "source_files": "renRenTest/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "YYCache": [
+
+    ],
+    "FMDB": [
 
     ]
   }

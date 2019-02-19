@@ -19,8 +19,20 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - renRenTest (0.2.0):
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - renRenTest (0.3.0):
     - AFNetworking
+    - FMDB
+    - SDWebImage
+    - YYCache
+    - YYModel
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -30,6 +42,10 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - FBSnapshotTestCase
+    - FMDB
+    - SDWebImage
+    - YYCache
+    - YYModel
 
 EXTERNAL SOURCES:
   renRenTest:
@@ -38,7 +54,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  renRenTest: abb6e63aae0aa301e60fa6a635d4e731c0e1bb94
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  renRenTest: 52da5da685d52baf966e6fe8104817942d20c527
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 25f23ddc4e8d54aaa9dff737ecb25a96080a3384
 
