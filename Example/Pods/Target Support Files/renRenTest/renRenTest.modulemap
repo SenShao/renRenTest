@@ -1,0 +1,6 @@
+framework module renRenTest {
+  umbrella header "renRenTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
