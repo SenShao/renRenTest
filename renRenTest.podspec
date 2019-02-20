@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'renRenTest'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'A short description of renRenTest.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'renRenTest/Classes/**/*'
+  s.subspec 'UIView' do |ss|
+      ss.source_files = 'renRenTest/Classes/UIView/*.{h,m}'
+  end
+
+  s.subspec 'UIImage' do |ss|
+      ss.source_files = 'renRenTest/Classes/UIImage/*.{h,m}'
+  end
+  
+  # s.source_files = 'renRenTest/Classes/**/*'
   
    s.resource_bundles = {
      'renRenTest' => ['renRenTest/Assets/*']

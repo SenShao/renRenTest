@@ -1,6 +1,6 @@
 {
   "name": "renRenTest",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "summary": "A short description of renRenTest.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SenShao/renRenTest",
@@ -13,12 +13,11 @@
   },
   "source": {
     "git": "https://github.com/SenShao/renRenTest.git",
-    "tag": "0.8.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "renRenTest/Classes/**/*",
   "resource_bundles": {
     "renRenTest": [
       "renRenTest/Assets/*"
@@ -40,5 +39,15 @@
     "FMDB": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "UIView",
+      "source_files": "renRenTest/Classes/UIView/*.{h,m}"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "renRenTest/Classes/UIImage/*.{h,m}"
+    }
+  ]
 }
