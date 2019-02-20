@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "UIImage+Add.h"
 #import "UIView+kkkkkk.h"
+#import "UIView+JAExt.h"
 
 FOUNDATION_EXPORT double renRenTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char renRenTestVersionString[];
