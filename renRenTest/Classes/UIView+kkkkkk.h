@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (kkkkkk)
 
++(UIImage *)getImageWithName:(NSString *)name;
+
 @end
 
 NS_ASSUME_NONNULL_END
