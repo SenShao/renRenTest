@@ -22,21 +22,22 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - renRenTest (0.9.0):
+  - renRenTest (1.0.0):
     - AFNetworking
     - FMDB
-    - renRenTest/UIImage (= 0.9.0)
-    - renRenTest/UIView (= 0.9.0)
+    - renRenTest/UIImage (= 1.0.0)
+    - renRenTest/UIView (= 1.0.0)
     - SDWebImage
     - YYCache
     - YYModel
-  - renRenTest/UIImage (0.9.0):
+  - renRenTest/UIImage (1.0.0):
     - AFNetworking
     - FMDB
+    - renRenTest/UIView
     - SDWebImage
     - YYCache
     - YYModel
-  - renRenTest/UIView (0.9.0):
+  - renRenTest/UIView (1.0.0):
     - AFNetworking
     - FMDB
     - SDWebImage
@@ -69,7 +70,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  renRenTest: 933cfc06d020cba5c20aca3dfd9780ffb8960775
+  renRenTest: 8897f6fb4c30ca461744d74f85ef2f33165b5991
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30

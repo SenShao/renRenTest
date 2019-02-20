@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'renRenTest'
-  s.version          = '0.9.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of renRenTest.'
 
 # This description is used to generate tags and improve search results.
@@ -36,6 +36,8 @@ TODO: Add long description of the pod here.
 
   s.subspec 'UIImage' do |ss|
       ss.source_files = 'renRenTest/Classes/UIImage/*.{h,m}'
+      ss.dependency 'renRenTest/UIView'
+
   end
   
   # s.source_files = 'renRenTest/Classes/**/*'

@@ -7,6 +7,8 @@
 //  UIImage分类（获取图片生成单一颜色图片）
 
 #import <UIKit/UIKit.h>
+#import "UIView+JAExt.h"
+
 
 @interface UIImage (Add)
 

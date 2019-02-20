@@ -1,6 +1,6 @@
 {
   "name": "renRenTest",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "summary": "A short description of renRenTest.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SenShao/renRenTest",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SenShao/renRenTest.git",
-    "tag": "0.9.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -47,7 +47,12 @@
     },
     {
       "name": "UIImage",
-      "source_files": "renRenTest/Classes/UIImage/*.{h,m}"
+      "source_files": "renRenTest/Classes/UIImage/*.{h,m}",
+      "dependencies": {
+        "renRenTest/UIView": [
+
+        ]
+      }
     }
   ]
 }

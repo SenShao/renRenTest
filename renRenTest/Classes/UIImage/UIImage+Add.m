@@ -15,7 +15,11 @@
     NSString *imgBundlePath = [[NSBundle mainBundle] pathForResource:bundle ofType:@"bundle"];
     NSBundle *imgBundle = [NSBundle bundleWithPath:imgBundlePath];
     UIImage *image = [UIImage imageNamed:imageName inBundle:imgBundle compatibleWithTraitCollection:nil];
+    
+    NSLog(@"=====%f",[UIView new].left);
+    
     return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
 }
 
 + (instancetype)ca_imageClip:(UIImage *)image {
